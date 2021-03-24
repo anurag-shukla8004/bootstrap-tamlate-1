@@ -1,3 +1,7 @@
-.background {
-    color: aliceblue;
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.text-primary {
+  color: #723182 !important;
 }
