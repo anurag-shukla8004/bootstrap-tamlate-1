@@ -1,7 +1,22 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
 .text-primary {
   color: #723182 !important;
+}
+
+.text-ld {
+  color: #555;
+}
+.img {
+  background: url("./img/illustrations/hero-section.png") no-repeat;
+  background-position: right top;
+  background-size: contain;
+  height: 70vh;
+}
+
+.our {
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
