@@ -1,4 +1,6 @@
 body {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Lobster", cursive;
   font-family: "Playfair Display", serif;
 }
 
@@ -38,7 +40,4 @@ body {
 
 .about-box ul li a {
   color: #555;
-}
-
-li {
 }
