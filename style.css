@@ -6,6 +6,10 @@ body {
   color: #723182 !important;
 }
 
+.bg-primary {
+  background: #723182 !important;
+}
+
 .text-ld {
   color: #555;
 }
@@ -17,6 +21,21 @@ body {
 }
 
 .our {
-  margin-top: 120px;
+  margin-top: 80px;
   margin-bottom: 120px;
+}
+
+.our-library {
+  background: url("./img/illustrations/libraries-bg.png") no-repeat;
+  width: 100vw;
+  height: 70vh;
+  background-position: left bottom;
+  background-size: contain;
+}
+.checked {
+  color: orange;
+}
+
+.about-box ul li a {
+  color: #555;
 }
