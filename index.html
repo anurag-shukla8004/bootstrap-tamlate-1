@@ -11,13 +11,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <link rel="stylesheet" href="style.css">
     <title>sevi</title>
 </head>
 <body>
     <main class="main" id="top">
-       <nav class="navbar bg-light navbar-light fixed-top py-3" data-navbar-on-scroll="data-navbar-on-scroll" style="background-image: none; transition: none 0s ease 0s; background-color: rgba(249, 250, 253, 0); ;">
+       <nav class="navbar bg-light navbar-light fixed-top py-1" data-navbar-on-scroll="data-navbar-on-scroll" style="background-image: none; transition: none 0s ease 0s; background-color: rgba(249, 250, 253, 0); ;">
     <div class="container justify-content-lg-between justify-content-center">
         <a class="d-flex align-items-center fs-3 fw-bolder text-decoration-none my-2 mx-5" href="#">
             <img src="./img/gallery/logo.png" alt="">
@@ -25,10 +26,9 @@
         </a>
    
 
-    <ul class="nav mx-sm-2 mx-lg-5">
+    <ul class="nav mx-sm-2 mx-lg-5 fs-sm-5">
         <li class="nav-item"><a class="nav-link active text-primary" href="#">Home</a></li>
         <li class="nav-item"><a class="nav-link text-dark" href="#">Active</a></li>
-        <li class="nav-item"><a class="nav-link text-dark" href="#">Contect</a></li>
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-black-50" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">About</a>
             <ul class="dropdown-menu">
@@ -39,17 +39,19 @@
               <li><a class="dropdown-item" href="#">Separated link</a></li>
             </ul>
           </li>
+        <li class="nav-item"><a class="nav-link text-dark" href="#">Contect</a></li>
+     
     </ul> 
 </div>
   </nav>
-
+<!-- ######################### img #################### -->
   <section class="img d-flex align-items-center">
-      <div class="container ">
+      <div class="container">
           <div class="row mx-4 align-items-center min-vh-md-75">
               <div class="col-md-7 col-lg-6 py-6 text-sm-start text-center">
                 <h1 class="mt-6 mb-sm-4 display-4 fw-semi-bold lh-sm fs-1 fs-md-7">Today's research, <br class="d-block d-lg-none d-xl-block">tomorrow's innovation
 
-                    <p class="my-sm-4 fs-5 text-primary ">Accelerating research discovery to shape a better future </p>
+                    <p class="my-sm-5 fs-5 text-primary ">Accelerating research discovery to shape a better future </p>
                    
                   
                   <form>
@@ -70,7 +72,7 @@
               <h1 class="d-flex justify-content-center"><span class="px-3 text-warning fs-1">Our</span>resources</h1>
           </div>
 
-       <div class="row row-cols-2 justify-content-center ">
+       <div class="row card-group  justify-content-center ">
         <div class=" card border-0 align-items-center" style="width: 20rem;">
             <img src="./img/gallery/researchers.png" class="card-img-top w-25" alt="...">
             <div class="card-block text-center">
@@ -80,7 +82,7 @@
           </div>
 
             <div class=" card border-0 align-items-center" style="width: 20rem;">
-                <img src="./img/gallery/librarian.png" class="card-img-top w-25" alt="...">
+                <img src="./img/gallery/librarian.png" class="card-img-top w-25 pt-5 pt-sm-0" alt="...">
                 <div class="card-block text-center">
                   <h5 class="card-title py-4">Librarian</h5>
                   <p class="card-text text-ld lh-base">Manage your account View products and solutions Find resources and support</p>
@@ -89,7 +91,7 @@
 
             
                 <div class=" card border-0 align-items-center" style="width: 20rem;">
-                    <img src="./img/gallery/societies.png" class="card-img-top w-25" alt="...">
+                    <img src="./img/gallery/societies.png" class="card-img-top w-25 pt-5 pt-sm-0" alt="...">
                     <div class="card-block text-center">
                       <h5 class="card-title py-4">Societies</h5>
                       <p class="card-text text-ld lh-base">Publish with Wiley Explore our resource library Learn about topics and trends</p>
@@ -98,7 +100,7 @@
 
                 
                     <div class=" card border-0 align-items-center" style="width: 20rem;">
-                        <img src="./img/gallery/authors.png" class="card-img-top w-25" alt="...">
+                        <img src="./img/gallery/authors.png" class="card-img-top w-25 pt-5 pt-sm-0" alt="...">
                         <div class="card-block text-center">
                           <h5 class="card-title py-4">Authors</h5>
                           <p class="card-text text-ld lh-base">Submit a paper Track your article Learn about Open Access</p>
@@ -107,6 +109,155 @@
        </div>
       </div>
   </section>
+
+  <!-- ####################### Our library ####################  -->
+
+  <section class="our our-library">
+      <div class="container">
+          <div class="row align-item-center">
+              <div class="col-md-5 col-lg-7 mt-md-5">
+                  <img src="./img/illustrations/our-libraries.png" alt="" width="620" class="img-fluid">
+              </div>
+              <div class="col-md-7 col-lg-4 text-center text-md-start mt-5 ">
+                <h1 class="d-flex justify-content-start fw-semi-bold"><span class="px-2 text-warning fs-1">Our</span>Libraries</h1>
+
+                <p class="my-sm-4  text-ld text-start lh-lg pt-3">Your reading list is a good place to start, but you will be expected to read more widely too. Use Sevi to search for information on your topic, and to find books, journal articles and other materials in the Library</p>
+
+                <div class="d-grid  d-md-flex justify-content-md-start">
+                    <button class="btn  bg-primary text-white rounded-pill px-md-5 w-50" type="button">Button</button>
+                    
+                  </div>
+
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section>
+      <div class="container our text-center">
+
+        <div class="col">
+            <h1 class="d-flex justify-content-center fw-semi-bold my-5"><span class="px-2 text-warning fs-1">Best</span> seller books</h1>
+          </div>
+        <ul class="list-group list-group-flush ">
+            <li class=" d-sm-flex justify-content-sm-between list-group-item ">
+               <div class="ml-2">
+                <h5 class="fw-bolder fs-5">Lord of ring</h5>
+                <p class="text-ld fw-light">J.R.R Tolkien</p>
+               </div>
+            <div class="mb-sm-4"> 
+                <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
+            </div>
+            <i style="font-size:24px" class="fa px-sm-3">&#xf155; 21</i>
+            </li>
+
+            <li class=" d-sm-flex justify-content-sm-between list-group-item ">
+                <div class="ml-2">
+                 <h5 class="fw-bolder fs-5">A Tale you </h5>
+                 <p class="text-ld fw-light">Charles Dicken</p>
+                </div>
+             <div class="mb-sm-4 "> 
+                 <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
+             </div>
+             <i style="font-size:24px" class="fa px-sm-3">&#xf155; 16</i>
+             </li>
+
+             <li class=" d-sm-flex justify-content-sm-between list-group-item ">
+                <div class="ml-2">
+                 <h5 class="fw-bolder fs-5">The Little </h5>
+                 <p class="text-ld fw-light">Antoine de Sai</p>
+                </div>
+             <div class="mb-sm-4"> 
+                 <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
+             </div>
+             <i style="font-size:24px" class="fa px-sm-3">&#xf155; 11</i>
+             </li>
+
+             <li class=" d-sm-flex justify-content-sm-between list-group-item ">
+                <div class="ml-2">
+                 <h5 class="fw-bolder fs-5">The Hobbit</h5>
+                 <p class="text-ld fw-light">J.R.R Tolkien</p>
+                </div>
+             <div class="mb-sm-4"> 
+                 <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
+             </div>
+             <i style="font-size:24px" class="fa px-sm-3">&#xf155; 20</i>
+             </li>
+          </ul>
+      </div>
+  </section>
+  <!-- ########################### About ####################### -->
+    <section class=" container about text-start">
+  <div class="row d-block">
+   
+        <div class="col d-sm-flex flex-sm-wrap my-4 justify-content-evenly">
+
+            <a class="d-flex align-items-start fs-3 fw-bolder text-decoration-none my-4 mx-4" href="#">
+                <img src="./img/gallery/logo.png" alt="">
+                <div class="px-3 text-primary fs-2 align-content-center">Sevi</div>
+            </a>
+    
+            <div class="about-box mx-4"><ul class="list-unstyled" >
+                <h3>PRODUCT</h3>
+                <li><a class="text-decoration-none" href="#">Features</a></li>
+                <li><a class="text-decoration-none" href="#">Enterprise </a></li>
+                <li><a class="text-decoration-none" href="#">Security </a></li>
+                <li><a class="text-decoration-none" href="#">Trust </a></li>
+                <li><a class="text-decoration-none" href="#">Customer stories </a></li>
+                <li><a class="text-decoration-none" href="#">Pricing</a></li>
+                <li><a class="text-decoration-none" href="#">Slack demo</a></li>
+              </ul>
+            
+            </div>
+            <div class="about-box mx-4"><ul class="list-unstyled">
+                <h3>SLACK FOR TEAMS</h3>
+                <li><a class="text-decoration-none" href="#">Engineering</a></li>
+                <li><a class="text-decoration-none" href="#">Financial services </a></li>
+                <li><a class="text-decoration-none" href="#">Sales </a></li>
+                <li><a class="text-decoration-none" href="#">IT </a></li>
+                <li><a class="text-decoration-none" href="#">Marketing</a></li>
+                <li><a class="text-decoration-none" href="#">Customer support</a></li>
+                <li><a class="text-decoration-none" href="#">Human resources</a></li>
+                <li><a class="text-decoration-none" href="#">Project management</a></li>
+                <li><a class="text-decoration-none" href="#">Media</a></li>
+              </ul>
+            
+            </div>
+            <div class="about-box mx-4"><ul class="list-unstyled">
+                <h3>RESOURCES</h3>
+                <li><a class="text-decoration-none" href="#">Resources Library </a></li>
+                <li><a class="text-decoration-none" href="#">Slack Tips </a></li>
+                <li><a class="text-decoration-none" href="#">Blog </a></li>
+                <li><a class="text-decoration-none" href="#">Events </a></li>
+                <li><a class="text-decoration-none" href="#">Slack Certified programme </a></li>
+                <li><a class="text-decoration-none" href="#">Help Centre </a></li>
+                <li><a class="text-decoration-none" href="#">API</a></li>
+                <li><a class="text-decoration-none" href="#">App Directory </a></li>
+                <li><a class="text-decoration-none" href="#">Download Slack</a></li>
+                <li><a class="text-decoration-none" href="#">Partners </a></li>
+              </ul>
+            
+            </div>
+            <div class="about-box mx-4"><ul class="list-unstyled">
+                <h3>COMPANY</h3>
+                <li><a  class="text-decoration-none" hrefhref="#">About us </a></li>
+                <li><a  class="text-decoration-none" hrefhref="#">Leadership</a></li>
+                <li><a  class="text-decoration-none" hrefhref="#">News</a></li>
+                <li><a  class="text-decoration-none" hrefhref="#">Media kit</a></li>
+                <li><a  class="text-decoration-none" hrefhref="#">Careers</a></li>
+                <li><a  class="text-decoration-none" hrefhref="#">Slack shop</a></li>
+              </ul>
+            
+            </div>
+        </div>
+  </div>
+</section>
+
+
+
+<footer class="footer bg-white d-flex justify-content-lg-center my-2 ">
+<p class="fs-md-6 fw-lighter">© Copyright 2020 Slack Technologies, Inc. All rights reserved. Various trademarks held by their respective owners.</p>
+</footer>
     </main>
 </body>
 </html>
